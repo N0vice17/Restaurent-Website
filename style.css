@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,6 +13,7 @@
     width: 100%;
     height: 7%;
     top: 0;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .navbar ul {
@@ -24,6 +27,7 @@
     color: white;
     padding: 10px;
     margin: 15px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -37,36 +41,46 @@
 .home {
     display: flex;
     height: 890px;
-    /* background-color: red; */
-    background-image: url("home.avif");
+    background-image: url("image3_0.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-direction: column;
-    align-items: center;
-}
-
-.home1 {
-    display: flex;
-    margin-top: 200px;
     justify-content: center;
     align-items: center;
 }
 
-.home2 {
+.home h1 {
     display: flex;
-    /* background-color: gray; */
-    width: 1000px;
-    height: 50px;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
-.home3 {
+.home p {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* background-color: green; */
-    width: 1000px;
-    height: 60px;
+    color: white;
+    width: 1200px;
+    height: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.button1 {
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: 'Ubuntu Mono', monospace;
 }
