@@ -84,3 +84,44 @@
     border-radius: 12px;
     font-family: 'Ubuntu Mono', monospace;
 }
+
+.services {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu Mono', monospace;
+    width: 100%;
+    height: 700px;
+}
+
+.maow {
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+}
+
+.servicescard {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(224, 176, 255);
+    border-radius: 30px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.servicescard p{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 120px;
+    text-align: center;
+}
