@@ -4,8 +4,62 @@
 }
 
 .navbar{
+    position: absolute;
     justify-content: center;
     align-items: center;
 }
 
+.navbar ul li a {
+    margin: 5px;
+    font-size: 18px;
+}
 
+.clients img{
+    height: 70px;
+    width: 70px;
+    padding: 7px;
+}
+
+.clients h1{
+    font-size: 30px;
+}
+
+.first,.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h1{
+    font-size: 30px;
+}
+
+.contact h1{
+    font-size: 30px;
+}
+
+.Feedback{
+    width: 300px;
+    height: 150px;
+}
+
+.servicescard{
+    width: 350px;
+}
+
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home1 h1{
+    font-size: 25px;
+}
+
+.home1 p{
+    font-size: 15px;
+}
