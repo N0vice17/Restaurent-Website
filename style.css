@@ -10,6 +10,7 @@
 .navbar {
     display: flex;
     background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
     justify-content: center;
     position: fixed;
     width: 100%;
@@ -42,7 +43,7 @@
 
 .home {
     display: flex;
-    height: 890px;
+    height: 930px;
     background-image: url("image3_0.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -66,7 +67,6 @@
     justify-content: center;
     align-items: center;
     color: white;
-    /* width: 1200px; */
     height: 20px;
     margin-top: 40px;
     font-weight: bold;
@@ -200,3 +200,16 @@
     width: 300px;
     height: 30px;
 }
+
+.logo {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+
+
