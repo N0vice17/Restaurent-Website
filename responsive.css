@@ -4,7 +4,6 @@
 }
 
 .navbar{
-    position: absolute;
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(5px);
@@ -12,7 +11,7 @@
 
 .navbar ul li a {
     margin: 5px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .clients img{
