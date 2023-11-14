@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(5px);
+    z-index: 1;
 }
 
 .navbar ul li a {

@@ -17,6 +17,7 @@
     height: 7%;
     top: 0;
     font-family: 'Ubuntu Mono', monospace;
+    z-index: 1;
 }
 
 .navbar ul {
