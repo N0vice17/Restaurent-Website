@@ -212,5 +212,22 @@
     font-size: 40px;
 }
 
+.SubmitButton{
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(38, 38, 247);
+    color: white;
+    border-radius: 25px;
+    border: solid white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.SubmitButton:hover{
+    cursor: pointer;
+}
+
 
 
