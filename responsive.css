@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.navbar{
+.navbar {
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -14,41 +14,50 @@
     font-size: 14px
 }
 
-.clients img{
+.clients img {
     height: 70px;
     width: 70px;
     padding: 7px;
 }
 
-.clients h1{
+.clients h1 {
     font-size: 30px;
 }
 
-.first,.second{
+.first,
+.second {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.services h1{
+.services h1 {
     font-size: 30px;
 }
 
-.contact h1{
+.servicescard img {
+    margin-top: 80px;
+}
+
+.servicescard p {
+    font-size: 19px;
+}
+
+.contact h1 {
     font-size: 30px;
 }
 
-.Feedback{
+.Feedback {
     width: 300px;
     height: 150px;
 }
 
-.servicescard{
+.servicescard {
     width: 350px;
 }
 
-.home1{
+.home1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +65,10 @@
     text-align: center;
 }
 
-.home1 h1{
+.home1 h1 {
     font-size: 25px;
 }
 
-.home1 p{
+.home1 p {
     font-size: 15px;
 }
-
