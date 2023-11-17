@@ -46,7 +46,7 @@
 .home {
     display: flex;
     height: 930px;
-    background-image: url("image3_0.jpg");
+    background-image: url("Assets/image3_0.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
