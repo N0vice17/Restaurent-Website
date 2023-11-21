@@ -12,3 +12,17 @@ const card2 = document.getElementById("card2para");
 card2.innerText = data.para2;
 const card3 = document.getElementById("card3para");
 card3.innerText = data.para3;
+
+const contact = document.getElementById('contact');
+
+contact.addEventListener('click', () => {
+    const contactform = document.getElementById("contactform");
+    contactform.scrollIntoView({ behaviour: "smooth" });
+});
+
+const service = document.getElementById("services");
+
+service.addEventListener('click', () => {
+    const ourservices = document.getElementById("ourservices");
+    ourservices.scrollIntoView({ behaviour: "smooth" });
+});
